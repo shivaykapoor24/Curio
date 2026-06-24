@@ -30,43 +30,6 @@ A curated e-commerce storefront built with **React + Vite** — featuring user a
 
 ---
 
-## Getting Started
-
-**1. Install dependencies**
-```bash
-npm install
-```
-
-**2. Run the dev server**
-```bash
-npm run dev
-# http://localhost:5173
-```
-
-**3. Build for production**
-```bash
-npm run build
-# output → dist/
-```
-
----
-
-## Deploy to Netlify
-
-**Option A — CLI (recommended)**
-```bash
-npm run build
-netlify deploy --prod --dir=dist
-```
-
-**Option B — Drag & drop**  
-Build locally, then drag `dist/` to [netlify.com/drop](https://app.netlify.com/drop)
-
-**Option C — GitHub auto-deploy**  
-Connect your repo in Netlify → every push to `main` auto-deploys
-
----
-
 ## Backend Routes (Node.js + MongoDB)
 
 | Method | Route | Description |
